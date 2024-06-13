@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    position: relative;
+    border: 10px solid rgb(38, 168, 36);
+    width: 500px;
+    height: 400px;
+
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.child-container{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.image{
+    width: 50px;
+    height: 30px;
+}
+
+.add-to-cart{
+    position: fixed;
+    bottom: 10px;
+    width: 200px;
+    right: 50%;
+    background-color: blue;
+    color: cornflowerblue;
+    padding: 10px;
+}
+.overflow{
+    /* margin-top: px; */
+    width: 130px;
+    height: 30px;
+    background-color: aquamarine;
+}
+.fruits{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.fruit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.fruit:nth-child(even){
+    flex-direction: row-reverse;
+}
+.fruit img{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+.fruit:hover{
+    background: rgb(90, 194, 229);
+}
+
+.fruit:active{
+    transform: scale(1.01);
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.card{
+    width: 100%;
+    height: 50px;
+    border: 1px solid#898989;
+    background-color: greenyellow;
+}
+
+/* @media screen and (max-width: 900px){
+    .cards{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .card{
+        background: rgb(124, 135, 227);
+    }
+    
+}
+@media screen and (max-width: 700px){
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .card{
+        background: red;
+    }
+    
+}
+
+@media screen and (max-width: 300px){
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card{
+        background: rgb(207, 240, 161);
+    }
+    
+} */
+.cardss{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.hello{
+    width: 100%;
+    height: 50px;
+    border: 1px solid#898989;
+    background-color: greenyellow;
+}
+/* @media screen and (min-width: 900px){
+    .cardss{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .hello{
+        background: rgb(124, 135, 227);
+    }
+    
+}
+@media screen and (min-width: 700px){
+    .cardss{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .hello{
+        background: red;
+    }
+    
+}
+
+@media screen and (mix-width: 300px){
+    .cardss{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .hello{
+        background: rgb(207, 240, 161);
+    }
+    
+} */
