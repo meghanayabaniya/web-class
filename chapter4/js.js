@@ -193,4 +193,5 @@ let student25={
 
 console.log(student25);
 console.log(student25.age);
+console.log(student25.favcolor(false));
 console.log(student25.favcolor(true));
