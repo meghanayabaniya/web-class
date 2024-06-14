@@ -195,3 +195,17 @@ console.log(student25);
 console.log(student25.age);
 console.log(student25.favcolor(false));
 console.log(student25.favcolor(true));
+
+
+let fruits=['apple','kiwi','orange']
+for(let fruitIndex in fruits){
+  // console.log(fruitIndex); //prints index
+
+
+  console.log(fruitIndex,fruits[fruitIndex]);
+}
+
+
+for(let fruitIndex of fruits){
+  console.log(fruitIndex); //print value 
+}
