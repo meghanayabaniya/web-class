@@ -12,9 +12,9 @@ function redirectToGoogle(){
     }
 }
 
-function addition(){
+function _addition(){
     let fistnum=prompt("enter the first number");
     let secondnum=prompt("enter the second number");
 
-    alert (Number(fistnum)+Number(secondnum));
+    alert(Number(fistnum)+Number(secondnum));
 }
