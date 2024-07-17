@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <button id="click-me-btn">click me</button>
+    <button id="click-me-btn-2">click me 2</button>
+    <img src="" alt="" id="img">
+    <script>
+        //old method
+        document.getElementById('click-me-btn').addEventListener('click',()=>{
+            console.log('btn clicked');
+        })
+
+        $(document).ready(()=>{
+            $('#click-me-btn-2').click(()=>{
+                $("#img").attr('src',"https://lh3.googleusercontent.com/2Glig-YXcE8GLTBTXP1DNnICG7ItFaiYiSbDKLQ371p3skv8Py1wKtouFMyv-s6s3k3wK98TZkE9q1oNkUbQBfuFhEaokVVqAcwL=s1024")
+                $('#click-me-btn-2').text("hello world")
+                $('#click-me-btn').hide()
+                setTimeout(()=>{
+                    $('#click-me-btn').show()
+                },3000)
+            })
+        })
+    </script>
+</body>
+</html>
