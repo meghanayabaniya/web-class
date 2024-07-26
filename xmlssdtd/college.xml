@@ -1,0 +1,24 @@
+<college>
+    <student>
+        <firstname>megha</firstname>
+        <lastname>nayabaniya</lastname>
+        <contact>9821844428</contact>
+        <email>megha@gmail.com</email>
+        <address>
+            <city>kathmandu</city>
+            <state>bagmati</state>
+            <pin>2700</pin>
+        </address>
+    </student>
+    <student>
+        <firstname>savu</firstname>
+        <lastname>bhattrai</lastname>
+        <contact>9745320208</contact>
+        <email>savu@gmail.com</email>
+        <address>
+            <city>kathmandu</city>
+            <state>bagmati</state>
+            <pin>2700</pin>
+        </address>
+    </student>
+</college>
